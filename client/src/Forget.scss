@@ -1,4 +1,4 @@
-.forget, .finance {
+.forget {
   color: #5532c8;
   font-size: 32px;
   margin-left: 45%;
@@ -6,4 +6,33 @@
   font-family:sans-serif;
   font-weight: 800;
   cursor: pointer;
+  animation: forget 20s linear infinite;
+  @keyframes forget {
+    0% {
+      transform: translate(-50%, 0);
+    }
+    100% {
+      transform: translate(70%, 0);
+    }
+}}
+
+.finance {
+  color: #5532c8;
+  font-size: 32px;
+  font-family:sans-serif;
+}
+@media screen and (min-width: 768px) {
+  .finance { 
+    margin-left: 25%;
+ }
+}
+@media screen and (min-width: 1024px) {
+  .finance { 
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .finance { 
+    margin-left: 25%;
+  }
 }

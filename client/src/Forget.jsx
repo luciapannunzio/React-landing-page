@@ -17,9 +17,10 @@ function Forget() {
     <div className='forget' onClick={() => scrollToBottom(position)}>
       <h1>Forget</h1>
       </div>
-      <div className='finance' style={{ marginTop: "800px" }} ref={position}>
-        <ScrollToTop smooth color='#5532c8'/>
-        <h1 style={{marginTop:"15vh"}}>Finance</h1>
+
+      <div className='finance' style={{ marginTop: "80vh" }} ref={position}>
+      <ScrollToTop smooth color='#5532c8'/>
+      <h1 style={{marginTop:"15vh"}}>Finance</h1>
       </div>
       </>
   )
